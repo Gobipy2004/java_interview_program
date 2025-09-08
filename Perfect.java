@@ -27,10 +27,7 @@ class Perfect
 			}
 			
 		}
-		if (temp==sum)
-			{
-				return true;
-			}
-		return false;
+		
+		return sum==temp;
 	}
 }
