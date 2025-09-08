@@ -7,7 +7,7 @@ class Palindrome
 		System.out.print("Enter Your Number: ");
 		int number=sc.nextInt();
 		boolean pali=ispalinDrome(number);
-		if (ispalinDrome(number))
+		if (pali)
 		{
 			System.out.println(pali+" it is Palindrome");
 		}
@@ -22,7 +22,7 @@ class Palindrome
 		while (number>0)
 		{
 			 res=(res*10)+(number%10);
-			number/=10;
+			 number/=10;
 		}
 		if (temp==res)
 		{
