@@ -25,11 +25,12 @@ class Perfect
 			{
 				sum+=i;
 			}
-			if (temp==sum)
+			
+		}
+		if (temp==sum)
 			{
 				return true;
 			}
-		}
 		return false;
 	}
 }
